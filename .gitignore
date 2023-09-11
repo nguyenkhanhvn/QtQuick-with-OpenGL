@@ -1,0 +1,174 @@
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+!core/
+*.*#
+*.a
+*.app
+*.autosave
+*.core
+*.debug
+*.embed.manifest
+*.moc
+*.o
+*.obj
+*.orig
+*.prl
+*.qm
+*.rc
+*.rej
+*.res
+*.so
+*.so.*
+*_pch.h.cpp
+*_resource.rc
+*_wrapper.bat
+*_wrapper.sh
+*~
+.#*
+.DS_Store
+.qmake.cache
+.qmake.stash
+.vscode
+Makefile*
+Thumbs.db
+core
+moc_*.cpp
+qrc_*.cpp
+tags
+ui_*.h
+wrapper.bat
+wrapper.sh
+debug_toolchain.cmake
+CMakeUserPresets.json
+
+# qtcreator generated files
+*.creator.user*
+*.pro.user*
+*.pyqtc.user*
+*.qbs.user*
+*.qmlproject.user*
+CMakeLists.txt.user*
+/share/qtcreator/examples/
+/share/qtcreator/externaltools/
+/share/qtcreator/fonts/
+/share/qtcreator/generic-highlighter/
+/share/qtcreator/qmldesigner/QtProject/
+/src/app/Info.plist
+/src/plugins/**/*.json
+/src/plugins/coreplugin/ide_version.h
+/src/libs/qt-breakpad/bin
+/.cmake/
+app_version.h
+phony.c
+
+# xemacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.ncb
+*.opensdf
+*.pdb
+*.sdf
+*.sln
+*.suo
+*.vcproj
+*.vcxproj
+*vcproj.*.*.user
+*vcxproj.*
+
+# gcov files
+*.gcda
+*.gcno
+*.gcov
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# Python byte code
+*.pyc
+
+# translation related:
+/share/qtcreator/translations/*_tr.h
+/share/qtcreator/translations/qtcreator_untranslated.ts
+
+# Qml caching files
+*.jsc
+*.qmlc
+
+# Squish generated files
+/tests/system/suite_*/config.xml
+
+# Clang tooling files
+compile_commands.json
+
+# Directories to ignore
+# ---------------------
+
+.moc/
+.obj/
+.pch/
+.rcc/
+.uic/
+.clangd/
+/*-debug/
+/*-release/
+/build*/
+/dist/gdb/*.gz
+/dist/gdb/python/
+/dist/gdb/qtcreator-*/
+/dist/gdb/source/
+/dist/gdb/staging/
+/doc/qbs/
+/doc/html/qtcreator/
+/doc/html/qtcreator-dev/
+/doc/html/qtdesignstudio/
+/doc/qtdesignstudio/doc/html
+/lib/
+/lib64/
+/libexec/
+debug/
+ipch/
+release/
+tmp/
+.cache/clangd/
+# ignore both a directory as well as a symlink
+/share/qtcreator/QtProject
+
+# Binaries
+# --------
+*.dll
+*.exe
+/bin/buildoutputparser
+/bin/clangbackend
+/bin/cpaster
+/bin/cplusplus-ast2png
+/bin/cplusplus-frontend
+/bin/cplusplus-keywordgen
+/bin/cplusplus-mkvisitor
+/bin/cplusplus-update-frontend
+/bin/qbs*
+/bin/qml2puppet
+/bin/qmlpuppet
+/bin/qtcreator
+/bin/qtcreator_crash_handler
+/bin/qtcreator_ctrlc_stub
+/bin/qtcreator_process_stub
+/bin/qtpromaker
+/bin/sdktool
+/share/doc/qtcreator/*.qch
+/share/qtcreator/qbs/
+/src/tools/examplesscanner/examplesscanner
+/src/tools/qml/qmldump/qmldump
+/src/tools/valgrindfake/valgrind-fake
+
+# qbs builds
+/*-debug/
+/*-release/
